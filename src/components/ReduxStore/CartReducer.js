@@ -11,6 +11,7 @@ const CartReducer=createSlice({
         VisibilityChange(state){
             state.isCartVisible=!state.isCartVisible
         }
+        
     }
 })
 export const CartAction=CartReducer.actions
